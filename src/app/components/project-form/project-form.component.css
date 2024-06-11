@@ -1,0 +1,76 @@
+.form-container {
+  width: 300px;
+  margin: 16px auto;
+  padding: 20px;
+  border: 1px solid #73beec;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.form-container h2 {
+  text-align: center;
+  color: #000000;
+}
+
+.form-container hr {
+  border: 0;
+  height: 1px;
+  background: #73beec;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 25px; /* Incrementa el espacio entre los controles */
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px; /* Incrementa el espacio entre el label y el input */
+  font-weight: bold;
+  color: #000000;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-control:focus {
+  border-color: #73beec;
+  outline: none;
+  box-shadow: 0 0 5px rgba(143, 214, 236, 0.5);
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px; /* Añadir margen superior para separar el mensaje de error del input */
+}
+
+.button-container {
+  display: flex; /* Centra el botón */
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-primary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #73beec;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #73beec;
+}

@@ -1,0 +1,38 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.table-container {
+  width: 100%;
+  max-width: 1000px; /* Ajusta el ancho máximo de la tabla */
+  overflow-x: auto;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.action-buttons {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px; /* Espacio entre los botones */
+}
+
+.custom-button {
+  margin-right: 30px;
+  margin-left: 30px; /* Ajusta el margen según sea necesario */
+}

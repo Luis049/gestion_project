@@ -1,0 +1,12 @@
+<mat-dialog-content class="study-list-modal" >
+  <h2 mat-dialog-title>Lista de tareas</h2>
+  <div >
+    <div class="study-item" *ngFor="let study of studies">
+      <mat-checkbox></mat-checkbox>
+      <span>{{ study.name }}</span>
+      <button mat-icon-button (click)="removeStudy(study)">
+        <mat-icon>close</mat-icon>
+      </button>
+    </div>
+  </div>
+</mat-dialog-content>

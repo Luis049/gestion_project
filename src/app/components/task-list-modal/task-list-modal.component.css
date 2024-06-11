@@ -1,0 +1,19 @@
+.study-item {
+  width: 100%;
+  display: flex;
+  flex-direction: space-between;
+  align-items: center
+}
+
+.study-list-modal {
+  width: 300px;
+}
+
+.study-icon {
+  margin-right: 8px;
+}
+
+
+
+
+

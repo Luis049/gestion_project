@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Asegúrate de que ocupe toda la altura de la pantalla */
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px; /* Margen inferior separado de la tabla */
+  margin-top: 20px; /* Margen superior */
+}
+
+.button-container button {
+  margin: 0 10px; /* Espacio alrededor de los botones */
+}
+
+.table-container {
+  width: 80%; /* Ajusta el ancho de la tabla según tus necesidades */
+  margin-top: 20px; /* Margen superior de la tabla */
+}
+
+
+ .custom-button {
+  border: none;
+  font-size: 20px;
+  background-color: #5fc75f;
+  color: white;
+  border-radius: 20px;
+  padding: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-right: 602px;
+}
+
+.custom-button:hover {
+  background-color: #5fd479;
+}
+
+.title {
+  text-align: center;
+  font-size: 34px;
+  font-weight: bold;
+  margin-top: 50px;
+  color: #73bee7;
+}
+
+
+
+
+
+
